@@ -1,0 +1,24 @@
+{
+    "name": "hylm/test-laravel",
+    "description": "这是一个测试的扩展包",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "戴帽子的男孩",
+            "email": "85848166@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~7.0.0 || ~7.1.0 || ~7.2.0 || ~7.3.0 || ~7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Test\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "hylm/test-laravel": "dev-master"
+    }
+}
