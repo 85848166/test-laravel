@@ -1,6 +1,6 @@
 <?php
 
-namespace Test\MakePDF;
+namespace Test\Test;
 
 class MakePDF
 {
